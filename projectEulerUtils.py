@@ -28,3 +28,7 @@ def primeFactors(N):
 		N /= next_factor
 
 	return factors
+
+
+def product(arr):
+	return reduce(lambda x,y:x*y,arr)
