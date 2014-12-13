@@ -1,5 +1,6 @@
 import math
 from collections import Counter
+from itertools import izip_longest
 
 def isPrime(N):
 	if N%2 == 0: 
@@ -43,3 +44,17 @@ def countDivisors(N):
 	prime_factors = Counter(primeFactors(N))
 	possible_factors = [count+1 for factor, count in prime_factors.iteritems()]
 	return product(possible_factors)
+
+
+def addDigitArray(arr1,arr2):
+	arr = izip_longest(reversed(arr1),reversed(arr2), fillvalue=0)
+	result = []
+	carry = 0
+	for x,y in arr:
+		z = x + y + carry 
+		result.append(z%10)
+		carry = 1 if z >= 10 else 0
+	if carry == 1:
+		result.append(carry)
+	result.reverse()
+	return result
