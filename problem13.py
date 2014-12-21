@@ -21,7 +21,6 @@ with open('problem13_input.txt', 'r') as file:
 		arr.append([int(x) for x in current_line])
 
 
-
 z = reduce(lambda x,y: addNumArray(x,y),arr)
 
 print z[0:10]
