@@ -3,7 +3,7 @@ from projectEulerUtils import product
 
 arr = []
 max_length = 4
-with open('problem11_input.txt', 'r') as file:
+with open('problem_011_input.txt', 'r') as file:
 	for line in file:
 		current_line = line.rstrip('\n').split(' ')
 		arr.append([int(x) for x in current_line])
