@@ -38,12 +38,19 @@ def product(arr):
 
 def findDivisors(N):
 	factorPairs  = [(x, N/x) for x in range(1,int(math.sqrt(N))+1) if N % x == 0]
-	return [factor for pair in factorPairs for factor in pair]
+	factors = [factor for pair in factorPairs for factor in pair]
+	unique_factors = list(set(factors))
+	return unique_factors 
 
 def countDivisors(N):
 	prime_factors = Counter(primeFactors(N))
 	possible_factors = [count+1 for factor, count in prime_factors.iteritems()]
 	return product(possible_factors)
+
+def properDivisors(x):
+	divisors = findDivisors(x)
+	proper_divisors = sorted(divisors)[:-1]
+	return proper_divisors
 
 
 def addDigitArray(arr1,arr2):
