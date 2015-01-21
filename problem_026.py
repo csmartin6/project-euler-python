@@ -1,5 +1,6 @@
 import fractions
 import numpy as np
+
 def multiplicativeOrder(a,n):
 	if fractions.gcd(a,n)!=1:
 		return 0
@@ -10,7 +11,7 @@ def multiplicativeOrder(a,n):
 		k+=1
 		ak*=a
 		if k > max_k:
-			raise RuntimeError("k greater than 1000")
+			raise RuntimeError("k greater than "+str(max_k))
 	return k
 
 N=1000
