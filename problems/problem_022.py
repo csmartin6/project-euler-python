@@ -1,6 +1,6 @@
 ascii_offset = 96
 
-with open('p022_names.txt', 'r') as file:
+with open('projecteuler/input_data/p022_names.txt', 'r') as file:
 	line = file.readline()
 	names = line.strip().lower().replace("\"","").split(',')
 

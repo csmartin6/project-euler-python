@@ -1,7 +1,7 @@
 import numpy as np
 triangle = []
 
-with open('problem_018_input.txt', 'r') as file:
+with open('projecteuler/input_data/problem_018_input.txt', 'r') as file:
 	for line in file:
 		current_line = line.rstrip('\n').split(' ')
 		triangle.append([int(x) for x in current_line])

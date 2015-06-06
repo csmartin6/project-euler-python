@@ -1,14 +1,14 @@
-from projectEulerUtils import primeSieve
+from ..projectEulerUtils import projectEulerUtils as utils
 
 # primes less than 100000
 N=100000
 max_a = 1000
 max_b = 1000
-primes = set([p for p in primeSieve(N)])
+primes = set([p for p in utils.primeSieve(N)])
 
 
 # b must be prime and positive
-pos_b = [b for b in primeSieve(max_b)]
+pos_b = [b for b in utils.primeSieve(max_b)]
 
 def consecutive_primes(a,b):
 	n = 0

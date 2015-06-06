@@ -1,7 +1,7 @@
-from projectEulerUtils import properDivisors
+from ..projectEulerUtils import projectEulerUtils as utils
 
 N = 28124
-abundant_numbers = [x for x in range(N) if sum(properDivisors(x)) > x]
+abundant_numbers = [x for x in range(N) if sum(utils.properDivisors(x)) > x]
 
 nums = [0 for x in xrange(N)]
 for i,numberA in enumerate(abundant_numbers):

@@ -1,7 +1,7 @@
-import projectEulerUtils
+from ..projectEulerUtils import projectEulerUtils as utils
 
 def properDivisors(x):
-	divisors = projectEulerUtils.findDivisors(x)
+	divisors = utils.findDivisors(x)
 	proper_divisors = sorted(divisors)[:-1]
 	return proper_divisors
 

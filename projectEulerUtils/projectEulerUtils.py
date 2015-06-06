@@ -8,7 +8,6 @@ def isPrime(N):
 	for i in xrange(3,int(math.sqrt(N))+1,2):
 		if N%i == 0:
 			return False
-
 	return True
 
 def primeSieve(N):
@@ -62,6 +61,15 @@ def properDivisors(x):
 	proper_divisors = sorted(divisors)[:-1]
 	return proper_divisors
 
+def asDigitArray(x, base = 10):
+	arr = []
+
+	while x > 0:
+		arr.append(x%base)
+		x/=base
+	
+	arr.reverse()
+	return arr
 
 def addDigitArray(arr1,arr2):
 	arr = izip_longest(reversed(arr1),reversed(arr2), fillvalue=0)

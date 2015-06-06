@@ -1,11 +1,11 @@
 from collections import Counter
-import projectEulerUtils
+from  ..projectEulerUtils import projectEulerUtils as utils
 
 N = 21;
 requiredPrimeFactors = {}
 
 for i in range(N):
-	i_factors = Counter(projectEulerUtils.primeFactors(i))
+	i_factors = Counter(utils.primeFactors(i))
 	for factor,count in i_factors.iteritems():
 		if factor not in requiredPrimeFactors:
 			requiredPrimeFactors[factor]=count
