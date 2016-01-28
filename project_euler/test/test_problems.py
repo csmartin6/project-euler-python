@@ -7,3 +7,6 @@ def test_problem_001():
 
 def test_problem_002():
     assert pe.problem_002.problem_002() == 4613732
+
+def test_problem_003():
+    assert pe.problem_003.problem_003() == 6857
