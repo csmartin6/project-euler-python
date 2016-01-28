@@ -5,5 +5,5 @@ import project_euler as pe
 def test_problem_001():
     assert pe.problem_001.problem_001() == 233168
 
-#def test_problem_001v2():
-#    assert pe.problem_001.problem_001() == 1234
+def test_problem_002():
+    assert pe.problem_002.problem_002() == 4613732
