@@ -15,7 +15,7 @@ def addNumArray(arr1,arr2):
 
 arr = []
 max_length = 4
-with open('projecteuler/input_data/problem_013_input.txt', 'r') as file:
+with open('projecteuler/data/problem_013_input.txt', 'r') as file:
 	for line in file:
 		current_line = line.rstrip('\n')
 		arr.append([int(x) for x in current_line])

@@ -1,4 +1,4 @@
-from ..projectEulerUtils import projectEulerUtils as utils
+from ..projectEulerUtils import utils as utils
 
 # primes less than 100000
 N=100000

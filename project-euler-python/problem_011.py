@@ -1,11 +1,11 @@
 import numpy as np
-from ..projectEulerUtils import projectEulerUtils as utils
 
+from ..projectEulerUtils import utils as utils
 
 arr = []
 max_length = 4
-#with open('input_data/problem_011_input.txt', 'r') as file:
-with open('projecteuler/input_data/problem_011_input.txt', 'r') as file:
+#with open('data/problem_011_input.txt', 'r') as file:
+with open('projecteuler/data/problem_011_input.txt', 'r') as file:
 	for line in file:
 		current_line = line.rstrip('\n').split(' ')
 		arr.append([int(x) for x in current_line])
@@ -17,7 +17,7 @@ max_product_list = []
 # Check Rows
 
 def maxContigousProduct(arr,length):
-	products = [utils.product(arr[j:(j+length)]) for j in range(len(arr)-length+1)]
+	products = [utils.product(arr[j:(j + length)]) for j in range(len(arr) - length + 1)]
 	return max(products)
 
 def maxProductInRow(arr):

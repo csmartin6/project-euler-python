@@ -1,4 +1,4 @@
-from ..projectEulerUtils import projectEulerUtils as utils
+from ..projectEulerUtils import utils as utils
 
 
 def scalarMultiplyNumArray(arr,multiple):
@@ -26,7 +26,7 @@ def multiplyNumArray(arr1,arr2):
 		if not csum:
 			csum = scalarMultiplyNumArray(arr1,digit)
 		else:
-			csum = utils.addDigitArray(csum,to_add)
+			csum = utils.addDigitArray(csum, to_add)
 	return csum
 
 N = 100

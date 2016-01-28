@@ -1,4 +1,4 @@
-from ..projectEulerUtils import projectEulerUtils as utils
+from ..projectEulerUtils import utils as utils
 
 N = 28124
 abundant_numbers = [x for x in range(N) if sum(utils.properDivisors(x)) > x]

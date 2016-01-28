@@ -1,5 +1,6 @@
 from collections import Counter
-from  ..projectEulerUtils import projectEulerUtils as utils
+
+from  ..projectEulerUtils import utils as utils
 
 N = 21;
 requiredPrimeFactors = {}

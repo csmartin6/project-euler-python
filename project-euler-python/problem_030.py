@@ -1,4 +1,4 @@
-from ..projectEulerUtils import projectEulerUtils as utils
+from ..projectEulerUtils import utils as utils
 
 N = 1000000
 
