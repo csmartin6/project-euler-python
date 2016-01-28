@@ -23,9 +23,9 @@ class PyTest(TestCommand):
         self.test_suite = True
 
 setup(
-    name='project-euler-python',
+    name='project_euler',
     version='0.3.0',
-    packages=['project-euler-python'],
+    packages=['project_euler'],
     url='',
     license='',
     author='Chris Martin',

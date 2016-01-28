@@ -1,3 +1,7 @@
+
+
+
+
 fib = [1,1]
 while(fib[-2]+fib[-1]<4000000):
 	fib.append(fib[-2]+fib[-1])

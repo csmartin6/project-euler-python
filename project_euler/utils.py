@@ -2,7 +2,7 @@ import math
 from collections import Counter
 from itertools import izip_longest
 
-def isPrime(N):
+def is_prime(N):
 	if N%2 == 0: 
 		False
 	for i in xrange(3,int(math.sqrt(N))+1,2):
