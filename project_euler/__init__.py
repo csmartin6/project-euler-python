@@ -2,3 +2,5 @@ import problem_001
 import problem_002
 import problem_003
 import problem_004
+import problem_005
+import problem_006

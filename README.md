@@ -1,4 +1,4 @@
 project-euler-python
 ====================
 
-Python solution for Project Euler (https://projecteuler.net/) problems.
+Python solutions for Project Euler (https://projecteuler.net/) problems.
