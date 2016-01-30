@@ -1,13 +1,22 @@
-from  ..projectEulerUtils import utils as utils
-
-N = 10001
-i = 1
-prime_count = 1
-while prime_count < N:
-	i+=2
-	if (utils.isPrime(i)):
-		prime_count+=1
+import sys
+import utils
 
 
-result = i
-print result
+def problem_007():
+    n = 10001
+    i = 1
+    prime_count = 1
+    while prime_count < n:
+        i += 2
+        if utils.is_prime(i):
+            prime_count += 1
+    return i
+
+
+def main():
+    print problem_007()
+
+
+if __name__ == '__main__':
+    sys.exit(main())
+

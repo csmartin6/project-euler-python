@@ -31,6 +31,6 @@ setup(
     author='Chris Martin',
     author_email='cmartin@palantir.com',
     description='Project Euler Solutions',
-    tests_require=['pytest'],
+    tests_require=['pytest','pytest-benchmark'],
     cmdclass = {'test': PyTest}
 )

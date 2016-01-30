@@ -4,3 +4,6 @@ import problem_003
 import problem_004
 import problem_005
 import problem_006
+import problem_007
+import problem_008
+import problem_009
