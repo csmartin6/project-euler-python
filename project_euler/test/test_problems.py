@@ -1,6 +1,8 @@
 import project_euler as pe
-#import pytest
-#import time
+
+
+# import pytest
+# import time
 
 
 # @pytest.mark.benchmark(
@@ -30,6 +32,7 @@ def test_problem_003(benchmark):
 def test_problem_004(benchmark):
     result = benchmark(pe.problem_004.problem_004)
     assert result == 906609
+
 
 def test_problem_005(benchmark):
     result = benchmark(pe.problem_005.problem_005)
