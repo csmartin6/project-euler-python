@@ -15,7 +15,8 @@ def problem_009():
 
 
 def main():
-    print problem_009()
+    print "Problem 9"
+    print "Answer: " + str(problem_009())
 
 if __name__ == '__main__':
     sys.exit(main())

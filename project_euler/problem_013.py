@@ -1,27 +1,25 @@
-from itertools import izip_longest
-
-def addNumArray(arr1,arr2):
-	arr = izip_longest(reversed(arr1),reversed(arr2), fillvalue=0)
-	result = []
-	carry = 0
-	for x,y in arr:
-		z = x + y + carry 
-		result.append(z%10)
-		carry = 1 if z >= 10 else 0
-	if carry == 1:
-		result.append(carry)
-	result.reverse()
-	return result
-
-arr = []
-max_length = 4
-with open('projecteuler/data/problem_013_input.txt', 'r') as file:
-	for line in file:
-		current_line = line.rstrip('\n')
-		arr.append([int(x) for x in current_line])
+import sys
+import utils
+import os
 
 
-z = reduce(lambda x,y: addNumArray(x,y),arr)
+def problem_013():
+    arr = []
+    filename = os.path.join(os.path.dirname(__file__), '../data/problem_013_input.txt')
+    with open(filename, 'r') as f:
+        for line in f:
+            current_line = line.rstrip('\n')
+            arr.append([int(x) for x in current_line])
 
-print z[0:10]
+    z = reduce(lambda a, b: utils.add_digit_array(a, b), arr)
+    z = [str(a) for a in z]
+    return int("".join(z[0:10]))
 
+
+def main():
+    print "Problem 13"
+    print "Answer: " + str(problem_013())
+
+
+if __name__ == '__main__':
+    sys.exit(main())

@@ -7,7 +7,8 @@ def problem_004():
 
 
 def main():
-    print problem_004()
+    print "Problem 4"
+    print "Answer: " + str(problem_004())
 
 if __name__ == '__main__':
     sys.exit(main())

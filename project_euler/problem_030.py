@@ -1,15 +1,26 @@
-from ..projectEulerUtils import utils as utils
+import sys
+import utils
 
-N = 1000000
 
-nums = []
+def problem_030():
+    n = 1000000
 
-for i in xrange(2,N):
-	digits = utils.asDigitArray(i)
+    nums = []
 
-	sum_of_5th_powers = sum([x**5 for x in digits])	
-	if sum_of_5th_powers == i:
-		nums.append(i)
+    for i in xrange(2, n):
+        digits = utils.as_digit_array(i)
 
-print nums
-print sum(nums)
+        sum_of_5th_powers = sum([x**5 for x in digits])
+        if sum_of_5th_powers == i:
+            nums.append(i)
+
+    return sum(nums)
+
+
+def main():
+    print "Problem 30"
+    print "Answer: " + str(problem_030())
+
+
+if __name__ == '__main__':
+    sys.exit(main())

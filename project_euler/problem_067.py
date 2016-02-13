@@ -1,22 +1,26 @@
-import numpy as np
-triangle = []
-
-with open('projecteuler/data/p067_triangle.txt', 'r') as file:
-	for line in file:
-		current_line = line.rstrip('\n').split(' ')
-		triangle.append([int(x) for x in current_line])
-
-max_sum = []
-previous_line = None
-for index,row in enumerate(triangle):
-	if not max_sum:
-		max_sum.append(row)
-	else:
-		row_max =np.zeros_like(row)
-		for pos, value in enumerate(row):
-			row_max[pos] = value + max(max_sum[index-1][max(pos-1,0)],
-											max_sum[index-1][min(pos,index-1)])
-		max_sum.append(row_max)
+import sys
+import os
 
 
-print max(max_sum[-1])
+import problem_018
+
+
+def problem_067():
+    triangle = []
+
+    filename = os.path.join(os.path.dirname(__file__), '../data/p067_triangle.txt')
+    with open(filename, 'r') as f:
+        for line in f:
+            current_line = line.rstrip('\n').split(' ')
+            triangle.append([int(x) for x in current_line])
+
+    return problem_018.max_path(triangle)
+
+
+def main():
+    print "Problem 67"
+    print "Answer: " + str(problem_067())
+
+
+if __name__ == '__main__':
+    sys.exit(main())

@@ -1,9 +1,22 @@
-from ..projectEulerUtils import utils as utils
-N=1000
+import sys
+import utils
 
-digits= [1]
 
-for i in xrange(N):
-	digits= utils.addDigitArray(digits, digits)
+def problem_016():
+    n = 1000
+    digits= [1]
 
-print sum(digits)
+    for i in xrange(n):
+        digits = utils.add_digit_array(digits, digits)
+
+    return sum(digits)
+
+
+
+def main():
+    print "Problem 16"
+    print "Answer: " + str(problem_016())
+
+
+if __name__ == '__main__':
+    sys.exit(main())
