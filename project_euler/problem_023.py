@@ -6,7 +6,6 @@ import utils
 def problem_023():
     n = 28124
     abundant_numbers = [x for x in range(n) if sum(utils.proper_divisors(x)) > x]
-
     nums = [0]*n
     for i, numberA in enumerate(abundant_numbers):
         for numberB in abundant_numbers[i:]:
