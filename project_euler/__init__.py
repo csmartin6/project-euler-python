@@ -29,4 +29,6 @@ import problem_028
 import problem_029
 import problem_030
 import problem_031
+import problem_032
+import problem_033
 import problem_067
