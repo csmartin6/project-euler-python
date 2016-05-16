@@ -77,6 +77,14 @@ def as_digit_array(x, base=10):
     arr.reverse()
     return arr
 
+def from_digit_array(arr, base=10):
+    num = 0
+    place_value = 1
+    for d in reversed(arr):
+        num+= d * place_value
+        place_value*=base
+    return num
+
 
 def add_digit_array(arr1, arr2):
     arr = izip_longest(reversed(arr1), reversed(arr2), fillvalue=0)
