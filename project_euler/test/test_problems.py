@@ -336,6 +336,63 @@ def test_problem_031_bench(benchmark):
     result = benchmark(pe.problem_031.problem_031)
     assert result == 73682
 
+def test_problem_031():
+    result = pe.problem_031.problem_031()
+    assert result == 73682
+
+def test_problem_031_bench(benchmark):
+    result = benchmark(pe.problem_031.problem_031)
+    assert result == 73682
+
+def test_problem_032():
+    result = pe.problem_032.problem_032()
+    assert result == 45228
+
+def test_problem_032_bench(benchmark):
+    result = benchmark(pe.problem_032.problem_032)
+    assert result == 45228
+
+def test_problem_033():
+    result = pe.problem_033.problem_033()
+    assert result == 100
+
+def test_problem_033_bench(benchmark):
+    result = benchmark(pe.problem_033.problem_033)
+    assert result == 100
+
+def test_problem_034():
+    result = pe.problem_034.problem_034()
+    assert result == 40730
+
+def test_problem_034_bench(benchmark):
+    result = benchmark(pe.problem_034.problem_034)
+    assert result == 40730
+
+def test_problem_035():
+    result = pe.problem_035.problem_035()
+    assert result == 55
+
+def test_problem_035_bench(benchmark):
+    result = benchmark(pe.problem_035.problem_035)
+    assert result == 55
+
+
+def test_problem_036():
+    result = pe.problem_036.problem_036()
+    assert result == 872187
+
+def test_problem_036_bench(benchmark):
+    result = benchmark(pe.problem_036.problem_036)
+    assert result == 872187
+
+def test_problem_037():
+    result = pe.problem_037.problem_037()
+    assert result == 748317
+
+def test_problem_037_bench(benchmark):
+    result = benchmark(pe.problem_037.problem_037)
+    assert result == 748317
+
 
 def test_problem_067():
     result = pe.problem_067.problem_067()

@@ -1,6 +1,5 @@
 import sys
 import utils
-import math
 
 def problem_035():
     n = 1000000
