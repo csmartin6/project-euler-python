@@ -1,9 +1,10 @@
 import sys
 import utils
 
+
 def problem_037():
     n = 1000000
-    truncateable_primes  = []
+    truncateable_primes = []
     primes = set([x for x in utils.prime_sieve(n)])
     for x in primes:
         prime = str(x)
@@ -19,9 +20,10 @@ def problem_037():
                 if right not in primes:
                     truncateable = False
                     break
-        if truncateable and x >10 :
+        if truncateable and x > 10:
             truncateable_primes.append(x)
     return sum(truncateable_primes)
+
 
 def main():
     print "Problem 37"

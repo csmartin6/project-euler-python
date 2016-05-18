@@ -35,4 +35,7 @@ import problem_034
 import problem_035
 import problem_036
 import problem_037
+import problem_038
+import problem_039
+import problem_040
 import problem_067

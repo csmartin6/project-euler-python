@@ -393,6 +393,33 @@ def test_problem_037_bench(benchmark):
     result = benchmark(pe.problem_037.problem_037)
     assert result == 748317
 
+def test_problem_038():
+    result = pe.problem_038.problem_038()
+    assert result == 932718654
+
+def test_problem_038_bench(benchmark):
+    result = benchmark(pe.problem_038.problem_038)
+    assert result == 932718654
+
+def test_problem_039():
+    result = pe.problem_039.problem_039()
+    assert result == 840
+
+def test_problem_039_bench(benchmark):
+    result = benchmark(pe.problem_039.problem_039)
+    assert result == 840
+
+def test_problem_040():
+    result = pe.problem_040.problem_040()
+    assert result == 210
+
+def test_problem_040_bench(benchmark):
+    result = benchmark(pe.problem_040.problem_040)
+    assert result == 210
+
+def test_problem_040_brute_force_bench(benchmark):
+    result = benchmark(pe.problem_040.problem_040_brute_force)
+    assert result == 210
 
 def test_problem_067():
     result = pe.problem_067.problem_067()
