@@ -376,7 +376,6 @@ def test_problem_035_bench(benchmark):
     result = benchmark(pe.problem_035.problem_035)
     assert result == 55
 
-
 def test_problem_036():
     result = pe.problem_036.problem_036()
     assert result == 872187
