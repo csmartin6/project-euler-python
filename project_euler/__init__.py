@@ -40,4 +40,6 @@ import problem_039
 import problem_040
 import problem_041
 import problem_042
+import problem_043
+import problem_044
 import problem_067
