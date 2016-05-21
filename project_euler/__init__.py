@@ -38,4 +38,6 @@ import problem_037
 import problem_038
 import problem_039
 import problem_040
+import problem_041
+import problem_042
 import problem_067

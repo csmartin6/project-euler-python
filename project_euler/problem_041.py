@@ -15,12 +15,11 @@ def is_pandigital(n):
 
 
 def problem_041():
-    max_prime = 0;
-    for x in utils.prime_sieve(87654322):
+    for x in reversed([y for y in utils.prime_sieve(87654322)]):
         if is_pandigital(x):
-            max_prime = x
+            return x
 
-    return max_prime
+    return 0
 
 def main():
     print "Problem 41"
