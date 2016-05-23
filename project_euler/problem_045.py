@@ -1,35 +1,37 @@
 import sys
 
 
-def triangle_numbers():
-    n = 0
-    while True:
-        n += 1
-        yield n * (n + 1) / 2
+def triangle_numbers(n):
+    i = 0
+    while i < n:
+        i += 1
+        yield i * (i + 1) / 2
 
 
-def pentagonal_numbers():
-    n = 0
-    while True:
-        n += 1
-        yield n * (3 * n - 1) / 2
+def pentagonal_numbers(n):
+    i = 0
+    while i < n:
+        i += 1
+        yield i * (3 * i - 1) / 2
 
 
-def hexagonal_numbers():
-    n = 0
-    while True:
-        n += 1
-        yield n * (2 * n - 1)
+def hexagonal_numbers(n):
+    i = 0
+    while i < n:
+        i += 1
+        yield i * (2 * i - 1)
 
 
 def problem_045():
-
-    triangular = triangle_numbers()
-    pentagonal = pentagonal_numbers()
-    hexagonal = hexagonal_numbers()
+    n = 10000000
+    triangular = triangle_numbers(n)
+    pentagonal = pentagonal_numbers(n)
+    hexagonal = hexagonal_numbers(n)
 
     p = 40756
     t = 40756
+
+
 
     for h in hexagonal:
 
