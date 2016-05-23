@@ -477,9 +477,20 @@ def test_problem_044():
     result = pe.problem_044.problem_044()
     assert result == 5482660
 
+
 def test_problem_044_bench(benchmark):
     result = benchmark(pe.problem_044.problem_044)
     assert result == 5482660
+
+
+def test_problem_045():
+    result = pe.problem_045.problem_045()
+    assert result == 1533776805
+
+
+def test_problem_045_bench(benchmark):
+    result = benchmark(pe.problem_045.problem_045)
+    assert result == 1533776805
 
 
 def test_problem_067():
