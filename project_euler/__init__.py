@@ -44,4 +44,5 @@ import problem_043
 import problem_044
 import problem_045
 import problem_046
+import problem_047
 import problem_067
