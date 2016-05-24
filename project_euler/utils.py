@@ -126,3 +126,28 @@ def multiply_num_array(arr1, arr2):
         else:
             csum = add_digit_array(csum, to_add)
     return csum
+
+def power_num_array(arr, pow):
+
+    csum = [1]
+    curr = arr
+    binary_exponent= bin(pow)[2:]
+    for b in reversed(binary_exponent):
+        if b == '1':
+            csum = multiply_num_array(csum, curr)
+        curr = multiply_num_array(curr, curr)
+
+    return csum
+
+
+def truncated_power_num_array(arr, pow, num_digits=10):
+
+    csum = [1]
+    curr = arr[-num_digits:]
+    binary_exponent= bin(pow)[2:]
+    for b in reversed(binary_exponent):
+        if b == '1':
+            csum = multiply_num_array(csum, curr)[-num_digits:]
+        curr = multiply_num_array(curr, curr)[-num_digits:]
+
+    return csum

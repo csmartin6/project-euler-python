@@ -501,7 +501,26 @@ def test_problem_046():
 def test_problem_046_bench(benchmark):
     result = benchmark(pe.problem_046.problem_046)
     assert result == 5777
-    
+
+
+def test_problem_047():
+    result = pe.problem_047.problem_047()
+    assert result == 134043
+
+
+def test_problem_047_bench(benchmark):
+    result = benchmark(pe.problem_047.problem_047)
+    assert result == 134043
+
+
+def test_problem_048():
+    result = pe.problem_048.problem_048()
+    assert result == 9110846700
+
+
+def test_problem_048_bench(benchmark):
+    result = benchmark(pe.problem_048.problem_048)
+    assert result == 9110846700
 
 def test_problem_067():
     result = pe.problem_067.problem_067()
