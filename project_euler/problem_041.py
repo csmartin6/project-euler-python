@@ -14,7 +14,7 @@ def is_pandigital(n):
 
 
 def problem_041():
-    for x in reversed([y for y in utils.prime_sieve(87654322)]):
+    for x in reversed([y for y in utils.prime_sieve(7654322)]):
         if is_pandigital(x):
             return x
 

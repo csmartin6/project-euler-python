@@ -448,7 +448,7 @@ def test_problem_041():
     assert result == 7652413
 
 
-def test_problem_041_bench(benchmark):
+def test_problem_041_bench(benchmark):w
     result = benchmark(pe.problem_041.problem_041)
     assert result == 7652413
 
