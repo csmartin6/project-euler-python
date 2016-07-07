@@ -11,7 +11,7 @@ def problem_013():
             current_line = line.rstrip('\n')
             arr.append([int(x) for x in current_line])
 
-    z = reduce(lambda a, b: utils.add_digit_array(a, b), arr)
+    z = reduce(lambda b, c: utils.add_digit_array(b, c), arr)
     z = [str(a) for a in z]
     return int("".join(z[0:10]))
 

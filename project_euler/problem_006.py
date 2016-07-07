@@ -7,7 +7,6 @@ def problem_006():
     for i in xrange(n+1):
         sum_of_squares += i * i
 
-    # #sum_of_squares = reduce(lambda acc,x: acc+x*x, range(N+1))
     squared_sum = (n*(n+1)/2)**2
     return squared_sum-sum_of_squares
 

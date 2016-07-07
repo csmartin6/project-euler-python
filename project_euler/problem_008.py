@@ -22,12 +22,12 @@ def problem_008():
     84580156166097919133875499200524063689912560717606
     05886116467109405077541002256983155200055935729725
     71636269561882670428252483600823257530420752963450"""
-    N = 13
+    n = 13
     num = num.replace('\n', '').replace('\t', '').replace(' ', '')
     max_prod = 0
-    for i in range(N, len(num)):
-        digits = [int(num[x]) for x in range(i - N, i)]
-        prod = reduce(lambda x, y: x * y, digits, 1)
+    for i in range(n, len(num)):
+        digits = [int(num[x]) for x in range(i - n, i)]
+        prod = reduce(lambda a, b: a * b, digits, 1)
         if prod > max_prod:
             max_prod = prod
 
