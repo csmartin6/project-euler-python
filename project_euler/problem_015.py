@@ -1,15 +1,16 @@
 import sys
 import numpy as np
+cache = {}
 
 
-def count_routes(i, j,cache):
+def count_routes(i, j):
     if i == 0 or j == 0:
         return 1
     else:
         if (i, j) in cache:
             return cache[(i, j)]
         else:
-            cache[(i, j)] = count_routes(i - 1, j,cache) + count_routes(i, j - 1,cache)
+            cache[(i, j)] = count_routes(i - 1, j) + count_routes(i, j - 1)
             return cache[(i, j)]
 
 
@@ -27,11 +28,7 @@ def problem_015():
             from_above = num_paths[i - 1, j]
             num_paths[i, j] = from_left + from_above
 
-    cache = {}
-
-
-
-    return count_routes(20, 20,cache)
+    return count_routes(20, 20)
 
 
 def main():
