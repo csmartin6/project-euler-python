@@ -543,6 +543,16 @@ def test_problem_050_bench(benchmark):
     assert result == 997651
 
 
+def test_problem_051():
+    result = pe.problem_051.problem_051()
+    assert result == 121313
+
+
+def test_problem_051_bench(benchmark):
+    result = benchmark(pe.problem_051.problem_051)
+    assert result == 121313
+
+
 def test_problem_067():
     result = pe.problem_067.problem_067()
     assert result == 7273
