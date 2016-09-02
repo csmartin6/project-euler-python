@@ -176,3 +176,17 @@ def erat3( ):
             while x in D or (x%30) not in MODULOS:
                 x += 2*p
             D[x] = p
+
+
+
+
+def factorials():
+    yield 1
+    yield 1
+
+    f = 1
+    n = 2
+    while True:
+        f = n * f
+        yield f
+        n += 1
