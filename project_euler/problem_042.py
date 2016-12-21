@@ -22,8 +22,8 @@ def problem_042():
     return len(triangular_words)
 
 def main():
-    print "Problem 42"
-    print "Answer: " + str(problem_042())
+    print("Problem 42")
+    print("Answer: " + str(problem_042()))
 
 
 

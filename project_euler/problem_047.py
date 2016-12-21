@@ -1,11 +1,11 @@
 import sys
-import utils
+from . import utils
 
 
 def problem_047():
     k = 4
     consecutive = []
-    for n in xrange(2,1000000):
+    for n in range(2,1000000):
         distinct_prime_factors = set(utils.prime_factors(n))
         if len(distinct_prime_factors) == k:
             consecutive.append(n)
@@ -18,8 +18,8 @@ def problem_047():
 
 
 def main():
-    print "Problem 47"
-    print "Answer: " + str(problem_047())
+    print("Problem 47")
+    print("Answer: " + str(problem_047()))
 
 
 if __name__ == '__main__':

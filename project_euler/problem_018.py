@@ -31,8 +31,8 @@ def problem_018():
 
 
 def main():
-    print "Problem 18"
-    print "Answer: " + str(problem_018())
+    print("Problem 18")
+    print("Answer: " + str(problem_018()))
 
 
 if __name__ == '__main__':

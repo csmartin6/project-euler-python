@@ -1,6 +1,4 @@
 import sys
-import utils
-import collections
 
 
 
@@ -21,8 +19,8 @@ def problem_053():
     return count
 
 def main():
-    print "Problem 53"
-    print "Answer: " + str(problem_053())
+    print("Problem 53")
+    print(("Answer: " + str(problem_053())))
 
 
 if __name__ == '__main__':

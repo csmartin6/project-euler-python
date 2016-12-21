@@ -2,7 +2,7 @@ import sys
 import os
 
 
-import problem_018
+from . import problem_018
 
 
 def problem_067():
@@ -18,8 +18,8 @@ def problem_067():
 
 
 def main():
-    print "Problem 67"
-    print "Answer: " + str(problem_067())
+    print("Problem 67")
+    print(("Answer: " + str(problem_067())))
 
 
 if __name__ == '__main__':

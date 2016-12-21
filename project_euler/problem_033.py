@@ -1,7 +1,7 @@
 import sys
-import utils
+from . import utils
 import fractions
-
+from functools import reduce
 
 def problem_033():
     tol = 1e-7
@@ -29,8 +29,8 @@ def problem_033():
 
 
 def main():
-    print "Problem 33"
-    print "Answer: " + str(problem_033())
+    print("Problem 33")
+    print(("Answer: " + str(problem_033())))
 
 
 if __name__ == '__main__':

@@ -1,5 +1,5 @@
 from collections import Counter
-import utils
+from . import utils
 import sys
 
 
@@ -9,22 +9,22 @@ def problem_005():
 
     for i in range(n):
         i_factors = Counter(utils.prime_factors(i))
-        for factor, count in i_factors.iteritems():
+        for factor, count in i_factors.items():
             if factor not in prime_factors:
                 prime_factors[factor] = count
             else:
                 prime_factors[factor] = max(prime_factors[factor], count)
 
     result = 1
-    for factor, count in prime_factors.iteritems():
+    for factor, count in prime_factors.items():
         result *= (factor**count)
 
     return result
 
 
 def main():
-    print "Problem 5"
-    print "Answer: " + str(problem_005())
+    print("Problem 5")
+    print("Answer: " + str(problem_005()))
 
 if __name__ == '__main__':
     sys.exit(main())

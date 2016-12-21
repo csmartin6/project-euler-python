@@ -1,11 +1,11 @@
 import sys
 import numpy as np
-import utils
+from . import utils
 import os
 
 
 def max_contigous_product(arr, length):
-    products = [utils.product(arr[j:(j + length)]) for j in xrange(len(arr) - length + 1)]
+    products = [utils.product(arr[j:(j + length)]) for j in range(len(arr) - length + 1)]
     return max(products)
 
 
@@ -20,7 +20,7 @@ def max_product_in_row(arr, max_length):
 def max_product_on_diagonal(arr, max_length):
     m, n = arr.shape
     max_ = 0
-    for k in xrange(-m + max_length, n - max_length):
+    for k in range(-m + max_length, n - max_length):
         diag = np.diagonal(arr, k)
         diag_max = max_contigous_product(diag, max_length)
         max_ = diag_max if diag_max > max_ else max_
@@ -49,8 +49,8 @@ def problem_011():
 
 
 def main():
-    print "Problem 11"
-    print "Answer: " + str(problem_011())
+    print("Problem 11")
+    print("Answer: " + str(problem_011()))
 
 
 if __name__ == '__main__':

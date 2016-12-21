@@ -36,10 +36,10 @@ def problem_045():
     for h in hexagonal:
 
         while p < h:
-            p = pentagonal.next()
+            p = next(pentagonal)
 
         while t < h:
-            t = triangular.next()
+            t = next(triangular)
 
         if p == h and t == h:
             break
@@ -48,8 +48,8 @@ def problem_045():
 
 
 def main():
-    print "Problem 45"
-    print "Answer: " + str(problem_045())
+    print("Problem 45")
+    print(("Answer: " + str(problem_045())))
 
 
 if __name__ == '__main__':

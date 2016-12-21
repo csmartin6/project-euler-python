@@ -17,12 +17,12 @@ def problem_024():
     d = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     nth = 999999
 
-    return long(''.join([str(x) for x in find_nth_ordering(nth, d, len(d))]))
+    return int(''.join([str(x) for x in find_nth_ordering(nth, d, len(d))]))
 
 
 def main():
-    print "Problem 24"
-    print "Answer: " + str(problem_024())
+    print("Problem 24")
+    print("Answer: " + str(problem_024()))
 
 
 if __name__ == '__main__':

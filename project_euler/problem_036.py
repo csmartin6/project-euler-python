@@ -4,7 +4,7 @@ import sys
 def problem_036():
     n = 1000000
     palindromes = []
-    for x in xrange(n):
+    for x in range(n):
         base_10 = str(x)
         base_2 = bin(x)[2:]
         if base_10 == base_10[::-1] and base_2 == base_2[::-1]:
@@ -14,8 +14,8 @@ def problem_036():
 
 
 def main():
-    print "Problem 36"
-    print "Answer: " + str(problem_036())
+    print("Problem 36")
+    print("Answer: " + str(problem_036()))
 
 
 if __name__ == '__main__':

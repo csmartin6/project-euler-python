@@ -32,11 +32,11 @@ def problem_019_b():
 
 
 def main():
-    print "Problem 19"
-    print "with datetime"
-    print "Answer: " + str(problem_019_a())
-    print "without datetime"
-    print "Answer: " + str(problem_019_b())
+    print("Problem 19")
+    print("with datetime")
+    print("Answer: " + str(problem_019_a()))
+    print("without datetime")
+    print("Answer: " + str(problem_019_b()))
 
 
 if __name__ == '__main__':

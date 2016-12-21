@@ -1,5 +1,6 @@
 import sys
 import numpy as np
+from functools import reduce
 
 
 def problem_040():
@@ -25,7 +26,7 @@ def problem_040():
 def problem_040_brute_force():
     champernowne = ""
 
-    for i in xrange(1000000):
+    for i in range(1000000):
         champernowne += str(i)
 
     digits = []
@@ -39,11 +40,11 @@ def problem_040_brute_force():
 
 
 def main():
-    print "Problem 40"
-    print "Answer: " + str(problem_040())
+    print("Problem 40")
+    print("Answer: " + str(problem_040()))
 
-    print "Problem 40 b"
-    print "Answer: " + str(problem_040_brute_force())
+    print("Problem 40 b")
+    print("Answer: " + str(problem_040_brute_force()))
 
 
 if __name__ == '__main__':

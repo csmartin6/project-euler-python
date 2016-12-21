@@ -13,10 +13,10 @@ def convert_number_to_words(num):
         return num2word[num]
 
     if num >= 1000:
-        return convert_number_to_words(num / 1000) + " thousand" + \
+        return convert_number_to_words(num // 1000) + " thousand" + \
                (" and " + convert_number_to_words(num % 1000) if num % 1000 else "")
     elif num >= 100:
-        return convert_number_to_words(num / 100) + " hundred" + \
+        return convert_number_to_words(num // 100) + " hundred" + \
                (" and " + convert_number_to_words(num % 100) if num % 100 else "")
     elif num > 20:
         return convert_number_to_words(num - num % 10) + \
@@ -32,7 +32,7 @@ def letter_count(word):
 def problem_017():
     letters = 0
     n = 1001
-    for i in xrange(1, n):
+    for i in range(1, n):
         num_word = convert_number_to_words(i)
         letters += letter_count(num_word)
 
@@ -40,8 +40,8 @@ def problem_017():
 
 
 def main():
-    print "Problem 17"
-    print "Answer: " + str(problem_017())
+    print("Problem 17")
+    print("Answer: " + str(problem_017()))
 
 
 if __name__ == '__main__':

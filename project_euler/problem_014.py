@@ -11,7 +11,7 @@ def problem_014_a():
     n = 1000001
     seq_lengths = {1: 1}
 
-    for i in xrange(2, n):
+    for i in range(2, n):
         current_number = i
         count = 0
         while current_number not in seq_lengths:
@@ -34,7 +34,7 @@ def problem_014_b():
     n = 1000001
     seq_lengths = Counter()
 
-    for i in xrange(1, n):
+    for i in range(1, n):
         for x in collatz(i):
             if x in seq_lengths:
                 seq_lengths[i] += seq_lengths[x]
@@ -46,9 +46,9 @@ def problem_014_b():
 
 
 def main():
-    print "Problem 14"
-    print "Method A: " + str(problem_014_a())
-    print "Method B: " + str(problem_014_b())
+    print("Problem 14")
+    print("Method A: " + str(problem_014_a()))
+    print("Method B: " + str(problem_014_b()))
 
 
 if __name__ == '__main__':

@@ -1,13 +1,14 @@
 import math
 from collections import Counter
-from itertools import izip_longest
+from itertools import zip_longest
 import itertools
+from functools import reduce
 
 
 def is_prime(n):
     if n % 2 == 0:
         return False
-    for i in xrange(3, int(math.sqrt(n)) + 1, 2):
+    for i in range(3, int(math.sqrt(n)) + 1, 2):
         if n % i == 0:
             return False
     return True
@@ -19,14 +20,14 @@ def prime_sieve(n):
     for (i, isprime) in enumerate(pos_primes):
         if isprime:
             yield i
-            for z in xrange(i * i, n, i):
+            for z in range(i * i, n, i):
                 pos_primes[z] = False
 
 
 def smallest_prime_factor(n):
     if n % 2 == 0:
         return 2
-    for i in xrange(3, int(math.sqrt(n)) + 1, 2):
+    for i in range(3, int(math.sqrt(n)) + 1, 2):
         if n % i == 0:
             return i
 
@@ -59,7 +60,7 @@ def find_divisors(n):
 
 def count_divisors(n):
     factors = Counter(prime_factors(n))
-    possible_factors = [count + 1 for factor, count in factors.iteritems()]
+    possible_factors = [count + 1 for factor, count in factors.items()]
     return product(possible_factors)
 
 
@@ -73,22 +74,23 @@ def as_digit_array(x, base=10):
 
     while x > 0:
         arr.append(x % base)
-        x /= base
+        x //= base
 
     arr.reverse()
     return arr
+
 
 def from_digit_array(arr, base=10):
     num = 0
     place_value = 1
     for d in reversed(arr):
-        num+= d * place_value
-        place_value*=base
+        num += d * place_value
+        place_value *= base
     return num
 
 
 def add_digit_array(arr1, arr2):
-    arr = izip_longest(reversed(arr1), reversed(arr2), fillvalue=0)
+    arr = zip_longest(reversed(arr1), reversed(arr2), fillvalue=0)
     result = []
     carry = 0
     for x, y in arr:
@@ -107,11 +109,11 @@ def scalar_multiply_num_array(arr, multiple):
     for digit in reversed(arr):
         x = digit * multiple + carry
         result.append(x % 10)
-        carry = x / 10
+        carry = x // 10
 
     while carry >= 1:
         result.append(carry % 10)
-        carry /= 10
+        carry //= 10
 
     result.reverse()
     return result
@@ -127,6 +129,7 @@ def multiply_num_array(arr1, arr2):
         else:
             csum = add_digit_array(csum, to_add)
     return csum
+
 
 def power_num_array(arr, pow):
 
@@ -156,28 +159,26 @@ def truncated_power_num_array(arr, pow, num_digits=10):
 
 # from stack overflow
 # https://stackoverflow.com/questions/2211990/how-to-implement-an-efficient-infinite-generator-of-prime-numbers-in-python
-def erat3( ):
-    D = { 9: 3, 25: 5 }
+def erat3():
+    d = {9: 3, 25: 5}
     yield 2
     yield 3
     yield 5
-    MASK= 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0,
-    MODULOS= frozenset( (1, 7, 11, 13, 17, 19, 23, 29) )
+    mask = 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0,
+    modulos = frozenset((1, 7, 11, 13, 17, 19, 23, 29))
 
     for q in itertools.compress(
             itertools.islice(itertools.count(7), 0, None, 2),
-            itertools.cycle(MASK)):
-        p = D.pop(q, None)
+            itertools.cycle(mask)):
+        p = d.pop(q, None)
         if p is None:
-            D[q*q] = q
+            d[q*q] = q
             yield q
         else:
             x = q + 2*p
-            while x in D or (x%30) not in MODULOS:
+            while x in d or (x % 30) not in modulos:
                 x += 2*p
-            D[x] = p
-
-
+            d[x] = p
 
 
 def factorials():

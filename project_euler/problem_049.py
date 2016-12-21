@@ -1,5 +1,5 @@
 import sys
-import utils
+from . import utils
 
 
 def problem_049():
@@ -11,7 +11,7 @@ def problem_049():
             primes_by_sorted_digits[s] = []
         primes_by_sorted_digits[s] += [p]
 
-    for k, v in primes_by_sorted_digits.iteritems():
+    for k, v in primes_by_sorted_digits.items():
         if len(v) >= 3:
             arithmetic_seq = sorted(v)
 
@@ -25,8 +25,8 @@ def problem_049():
 
 
 def main():
-    print "Problem 49"
-    print "Answer: " + str(problem_049())
+    print("Problem 49")
+    print("Answer: " + str(problem_049()))
 
 
 if __name__ == '__main__':

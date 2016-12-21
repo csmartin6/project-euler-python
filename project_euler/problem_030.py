@@ -7,7 +7,7 @@ def problem_030():
 
     nums = []
 
-    for i in xrange(2, n):
+    for i in range(2, n):
         digits = utils.as_digit_array(i)
 
         sum_of_5th_powers = sum([x**5 for x in digits])
@@ -18,8 +18,8 @@ def problem_030():
 
 
 def main():
-    print "Problem 30"
-    print "Answer: " + str(problem_030())
+    print("Problem 30")
+    print("Answer: " + str(problem_030()))
 
 
 if __name__ == '__main__':

@@ -1,12 +1,12 @@
 import sys
-import utils
+from . import utils
 
 
 def problem_016():
     n = 1000
     digits= [1]
 
-    for i in xrange(n):
+    for i in range(n):
         digits = utils.add_digit_array(digits, digits)
 
     return sum(digits)
@@ -14,8 +14,8 @@ def problem_016():
 
 
 def main():
-    print "Problem 16"
-    print "Answer: " + str(problem_016())
+    print("Problem 16")
+    print("Answer: " + str(problem_016()))
 
 
 if __name__ == '__main__':

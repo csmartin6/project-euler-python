@@ -1,5 +1,5 @@
 import sys
-import utils
+from . import utils
 
 
 def problem_021():
@@ -8,7 +8,7 @@ def problem_021():
     amicable_pairs = set()
     amicable_numbers = set()
 
-    for num in xrange(n):
+    for num in range(n):
         proper_divisor_sum = sum(utils.proper_divisors(num))
         proper_divisor_sums[num] = proper_divisor_sum
 
@@ -29,8 +29,8 @@ def problem_021():
 
 
 def main():
-    print "Problem 21"
-    print "Answer: " + str(problem_021())
+    print("Problem 21")
+    print("Answer: " + str(problem_021()))
 
 
 if __name__ == '__main__':

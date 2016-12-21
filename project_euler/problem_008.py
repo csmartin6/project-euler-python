@@ -1,4 +1,5 @@
 import sys
+from functools import reduce
 
 
 def problem_008():
@@ -35,8 +36,8 @@ def problem_008():
 
 
 def main():
-    print "Problem 8"
-    print "Answer: " + str(problem_008())
+    print("Problem 8")
+    print("Answer: " + str(problem_008()))
 
 
 if __name__ == '__main__':

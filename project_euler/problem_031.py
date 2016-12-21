@@ -22,8 +22,8 @@ def problem_031():
 
 
 def main():
-    print "Problem 31"
-    print "Answer: " + str(problem_031())
+    print("Problem 31")
+    print("Answer: " + str(problem_031()))
 
 
 if __name__ == '__main__':

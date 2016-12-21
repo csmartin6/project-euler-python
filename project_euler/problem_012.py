@@ -13,8 +13,8 @@ def problem_012():
 
 
 def main():
-    print "Problem 12"
-    print "Answer: " + str(problem_012())
+    print("Problem 12")
+    print("Answer: " + str(problem_012()))
 
 
 if __name__ == '__main__':

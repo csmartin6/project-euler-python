@@ -1,5 +1,5 @@
 import sys
-import utils
+from . import utils
 
 
 def problem_037():
@@ -26,8 +26,8 @@ def problem_037():
 
 
 def main():
-    print "Problem 37"
-    print "Answer: " + str(problem_037())
+    print("Problem 37")
+    print("Answer: " + str(problem_037()))
 
 
 if __name__ == '__main__':

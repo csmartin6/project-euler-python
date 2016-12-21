@@ -1,5 +1,5 @@
 import sys
-import utils
+from . import utils
 
 def problem_035():
     n = 1000000
@@ -21,8 +21,8 @@ def problem_035():
     return len(circular_primes)
 
 def main():
-    print "Problem 35"
-    print "Answer: " + str(problem_035())
+    print("Problem 35")
+    print("Answer: " + str(problem_035()))
 
 
 if __name__ == '__main__':

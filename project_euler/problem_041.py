@@ -1,5 +1,5 @@
 import sys
-import utils
+from . import utils
 
 
 def is_pandigital(n):
@@ -21,8 +21,8 @@ def problem_041():
     return 0
 
 def main():
-    print "Problem 41"
-    print "Answer: " + str(problem_041())
+    print("Problem 41")
+    print("Answer: " + str(problem_041()))
 
 
 
