@@ -1,5 +1,5 @@
 import sys
-from . import utils
+import utils
 
 
 def problem_050():
@@ -8,7 +8,6 @@ def problem_050():
     prime_set = set(primes)
 
     max_sum = 0
-    prime_seq = []
 
     max_seq_len = 0
     for i, p in enumerate(primes):
@@ -29,7 +28,6 @@ def problem_050():
             if cum in prime_set:
                 seq_len = max_seq_len+j
                 max_sum = cum
-                prime_seq = primes[i:(i+max_seq_len+j+1)]
 
     return max_sum
 

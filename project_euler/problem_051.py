@@ -41,7 +41,7 @@ def problem_051():
                                 break
 
                         if len(prime_seq) >= num_in_seq:
-                            print("prime_seq: {}".format(prime_seq))
+                            # print("prime_seq: {}".format(prime_seq))
                             return min(prime_seq)
 
 

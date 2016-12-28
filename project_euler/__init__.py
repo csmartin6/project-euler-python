@@ -53,4 +53,6 @@ from . import problem_052
 from . import problem_053
 from . import problem_054
 from . import problem_055
+from . import problem_056
+from . import problem_057
 from . import problem_067
