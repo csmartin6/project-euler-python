@@ -2,21 +2,21 @@ import sys
 import os
 from collections import Counter
 
-
 card_to_value = {'2': 2,
-                '3': 3,
-                '4': 4,
-                '5': 5,
-                '6': 6,
-                '7': 7,
-                '8': 8,
-                '9': 9,
-                'T': 10,
-                'J': 11,
-                'Q': 12,
-                'K': 13,
-                'A': 14
-}
+                 '3': 3,
+                 '4': 4,
+                 '5': 5,
+                 '6': 6,
+                 '7': 7,
+                 '8': 8,
+                 '9': 9,
+                 'T': 10,
+                 'J': 11,
+                 'Q': 12,
+                 'K': 13,
+                 'A': 14
+                 }
+
 
 def is_flush(cards):
     suit = cards[0][1]
@@ -99,7 +99,7 @@ def poker(hand_a, hand_b):
     if b_full_house:
         return "b"
 
-    ## Flush
+    # Flush
     if a_flush and b_flush:
         return "a" if hand_a[0][0] >= hand_b[0][0] else "b"
 
@@ -109,9 +109,7 @@ def poker(hand_a, hand_b):
     if b_flush:
         return "b"
 
-
-
-    ## Straight
+    # Straight
     if a_straight and b_straight:
         return "a" if hand_a[0][0] >= hand_b[0][0] else "b"
 
@@ -121,7 +119,7 @@ def poker(hand_a, hand_b):
     if b_straight:
         return "b"
 
-    ## Three of a kind
+    # Three of a kind
     a_3_of_a_kind = a_pairs.most_common(1)[0][1] if a_pairs and (a_pairs.most_common(1)[0][1] == 3) else 0
     b_3_of_a_kind = b_pairs.most_common(1)[0][1] if b_pairs and (b_pairs.most_common(1)[0][1] == 3) else 0
 
@@ -134,7 +132,7 @@ def poker(hand_a, hand_b):
     if b_3_of_a_kind:
         return "b"
 
-    ## Two pair
+    # Two pair
     if len(a_pairs) == 2 and len(b_pairs) == 2:
 
         if max(a_pairs.values()) == max(b_pairs.values()):
@@ -149,10 +147,10 @@ def poker(hand_a, hand_b):
     if len(b_pairs) == 2:
         return "b"
 
-    ## One pair
+    # One pair
 
     if a_pairs and b_pairs:
-        if max(a_pairs.keys()) ==  max(b_pairs.keys()):
+        if max(a_pairs.keys()) == max(b_pairs.keys()):
             return "a" if a_rem[0] >= b_rem[0] else "b"
         else:
             return "a" if a_pairs.most_common(1)[0][0] >= b_pairs.most_common(1)[0][0] else "b"
@@ -162,24 +160,20 @@ def poker(hand_a, hand_b):
     if b_pairs:
         return "b"
 
-    ## High Card
+    # High Card
 
     return "a" if hand_a[0][0] >= hand_b[0][0] else "b"
 
 
-def card_to_tuple(card):
-    (int(c[0]), c[1])
-
 def problem_054():
-
     filename = os.path.join(os.path.dirname(__file__), '../data/p054_poker.txt')
     winners = Counter()
     with open(filename, 'r') as f:
         for line in f:
-            cards =  [(card_to_value[c[0]], c[1]) for c in line.rstrip('\n').split(' ')]
+            cards = [(card_to_value[c[0]], c[1]) for c in line.rstrip('\n').split(' ')]
             hand_a = sorted(cards[:5], reverse=True)
             hand_b = sorted(cards[5:], reverse=True)
-            winner = poker(hand_a,hand_b)
+            winner = poker(hand_a, hand_b)
             winners[winner] += 1
 
     return winners['a']
@@ -192,4 +186,3 @@ def main():
 
 if __name__ == '__main__':
     sys.exit(main())
-
