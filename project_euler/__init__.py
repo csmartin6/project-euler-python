@@ -63,4 +63,7 @@ from . import problem_062
 from . import problem_063
 from . import problem_064
 from . import problem_065
+from . import problem_066
 from . import problem_067
+from . import problem_068
+from . import problem_069
