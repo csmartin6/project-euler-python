@@ -40,7 +40,7 @@ def prime_factors(n):
     factors = []
 
     while n > 1:
-        next_factor = smallest_prime_factor(n)
+        next_factor = int(smallest_prime_factor(n))
         factors.append(next_factor)
         n /= next_factor
 
