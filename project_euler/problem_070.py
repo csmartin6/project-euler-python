@@ -1,20 +1,11 @@
 import sys
 import utils
-from fractions import Fraction
-from functools import reduce
-import operator
 
-
-def totient(n):
-    factors = set(utils.prime_factors(n))
-    prod = [1 - Fraction(1, f) for f in factors]
-    m = reduce(operator.mul, prod, 1)
-    return n * m
 
 
 def problem_070():
     n = 10000000
-    totients = {i: int(totient(i)) for i in range(2, n+1)}
+    totients = {i: int(utils.totient(i)) for i in range(2, n+1)}
     perms = [k for k, v in totients.items() if sorted(str(k)) == sorted(str(v))]
     min_ratio = float("inf")
     min_ratio_n = 0

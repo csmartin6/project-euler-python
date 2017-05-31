@@ -6,8 +6,12 @@ from math import gcd
 # medieands
 # 2+3k / 5+7k
 
-
 def problem_071():
+    n = 1e6
+    k = int((n-5) / 7)
+    return 2+3*k
+
+def problem_071_brute_force():
     n = 1000000
     target = Fraction(3,7)
     closest = Fraction(0,1)
@@ -22,7 +26,6 @@ def problem_071():
                     closest = cand
 
     return cand.numerator
-
 
 def main():
     print("Problem 71")

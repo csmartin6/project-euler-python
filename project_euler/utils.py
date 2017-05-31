@@ -2,8 +2,9 @@ import math
 from collections import Counter
 from itertools import zip_longest
 import itertools
+from fractions import Fraction
 from functools import reduce
-
+import operator
 
 def is_prime(n):
     if n % 2 == 0:
@@ -191,3 +192,10 @@ def factorials():
         f = n * f
         yield f
         n += 1
+
+
+def totient(n):
+    factors = set(prime_factors(n))
+    prod = [1 - Fraction(1, f) for f in factors]
+    m = reduce(operator.mul, prod, 1)
+    return n * m
