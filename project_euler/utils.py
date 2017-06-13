@@ -193,6 +193,17 @@ def factorials():
         yield f
         n += 1
 
+def factorials_(N=10):
+    yield 1
+    yield 1
+
+    f = 1
+    n = 2
+    while n <= N:
+        f = n * f
+        yield f
+        n += 1
+
 
 def totient(n):
     factors = set(prime_factors(n))
