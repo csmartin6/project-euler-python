@@ -72,3 +72,5 @@ from . import problem_071
 from . import problem_072
 from . import problem_073
 from . import problem_074
+from . import problem_075
+from . import problem_076
