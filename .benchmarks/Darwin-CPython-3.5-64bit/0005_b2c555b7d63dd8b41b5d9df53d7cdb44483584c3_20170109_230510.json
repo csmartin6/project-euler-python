@@ -1,0 +1,2090 @@
+{
+    "version": "3.0.0",
+    "commit_info": {
+        "id": "b2c555b7d63dd8b41b5d9df53d7cdb44483584c3",
+        "dirty": false
+    },
+    "benchmarks": [
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_001_bench",
+            "group": null,
+            "stats": {
+                "outliers": "461;323",
+                "iqr": 4.488249760470353e-05,
+                "mean": 0.0001919418015647007,
+                "stddev": 4.448297552211257e-05,
+                "q1": 0.00015845099551370367,
+                "median": 0.00018117499712388963,
+                "min": 0.00015263599925674498,
+                "stddev_outliers": 461,
+                "rounds": 5069,
+                "q3": 0.0002033334931184072,
+                "iterations": 1,
+                "hd15iqr": 0.0002713010035222396,
+                "ld15iqr": 0.00015263599925674498,
+                "max": 0.000541910994797945,
+                "iqr_outliers": 323
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_001_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_002_bench",
+            "group": null,
+            "stats": {
+                "outliers": "14;2651",
+                "iqr": 2.819491783156991e-06,
+                "mean": 1.4620812994462794e-05,
+                "stddev": 0.00010603803799952924,
+                "q1": 1.197701203636825e-05,
+                "median": 1.2794000213034451e-05,
+                "min": 1.1119002010673285e-05,
+                "stddev_outliers": 14,
+                "rounds": 46359,
+                "q3": 1.4796503819525242e-05,
+                "iterations": 1,
+                "hd15iqr": 1.9029001123271883e-05,
+                "ld15iqr": 1.1119002010673285e-05,
+                "max": 0.022811878006905317,
+                "iqr_outliers": 2651
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_002_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_003_bench",
+            "group": null,
+            "stats": {
+                "outliers": "414;417",
+                "iqr": 3.3980013540713117e-05,
+                "mean": 0.00016722580964666675,
+                "stddev": 5.955736959218523e-05,
+                "q1": 0.00014116199236013927,
+                "median": 0.00015350600006058812,
+                "min": 0.00013598801160696894,
+                "stddev_outliers": 414,
+                "rounds": 6383,
+                "q3": 0.00017514200590085238,
+                "iterations": 1,
+                "hd15iqr": 0.00022620199888478965,
+                "ld15iqr": 0.00013598801160696894,
+                "max": 0.0037111150013515726,
+                "iqr_outliers": 417
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_003_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_004_bench",
+            "group": null,
+            "stats": {
+                "outliers": "38;2",
+                "iqr": 0.0011055555114580784,
+                "mean": 0.0071460306572211215,
+                "stddev": 0.0008632913219293339,
+                "q1": 0.006517218746012077,
+                "median": 0.006899934989633039,
+                "min": 0.006100217011407949,
+                "stddev_outliers": 38,
+                "rounds": 137,
+                "q3": 0.007622774257470155,
+                "iterations": 1,
+                "hd15iqr": 0.009425202006241307,
+                "ld15iqr": 0.006100217011407949,
+                "max": 0.011615797004196793,
+                "iqr_outliers": 2
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_004_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_005_bench",
+            "group": null,
+            "stats": {
+                "outliers": "296;230",
+                "iqr": 3.420575012569316e-05,
+                "mean": 0.00015790909922539558,
+                "stddev": 3.934154156573551e-05,
+                "q1": 0.0001333700020040851,
+                "median": 0.00014536600792780519,
+                "min": 0.00012704399705398828,
+                "stddev_outliers": 296,
+                "rounds": 3455,
+                "q3": 0.00016757575212977827,
+                "iterations": 1,
+                "hd15iqr": 0.00021944699983578175,
+                "ld15iqr": 0.00012704399705398828,
+                "max": 0.0005445970018627122,
+                "iqr_outliers": 230
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_005_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_006_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2598;4914",
+                "iqr": 2.152009983547032e-06,
+                "mean": 9.348165052933422e-06,
+                "stddev": 7.3795037523715945e-06,
+                "q1": 7.700989954173565e-06,
+                "median": 8.37500556372106e-06,
+                "min": 7.381997420452535e-06,
+                "stddev_outliers": 2598,
+                "rounds": 86678,
+                "q3": 9.852999937720597e-06,
+                "iterations": 1,
+                "hd15iqr": 1.3090000720694661e-05,
+                "ld15iqr": 7.381997420452535e-06,
+                "max": 0.001780364997102879,
+                "iqr_outliers": 4914
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_006_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_007_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;0",
+                "iqr": 0.0017920694954227656,
+                "mean": 0.19087651899608318,
+                "stddev": 0.0015512491080120461,
+                "q1": 0.19006543624709593,
+                "median": 0.19158211299509276,
+                "min": 0.18826868600444868,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 0.1918575057425187,
+                "iterations": 1,
+                "hd15iqr": 0.19208615299430676,
+                "ld15iqr": 0.18826868600444868,
+                "max": 0.19208615299430676,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_007_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_008_bench",
+            "group": null,
+            "stats": {
+                "outliers": "15;5",
+                "iqr": 0.0010990019945893437,
+                "mean": 0.0066754469326891315,
+                "stddev": 0.001018838951516824,
+                "q1": 0.0060124820010969415,
+                "median": 0.006359510494803544,
+                "min": 0.005704770999727771,
+                "stddev_outliers": 15,
+                "rounds": 150,
+                "q3": 0.007111483995686285,
+                "iterations": 1,
+                "hd15iqr": 0.008885661998647265,
+                "ld15iqr": 0.005704770999727771,
+                "max": 0.01434453300316818,
+                "iqr_outliers": 5
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_008_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_009_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;1",
+                "iqr": 0.0021913870004937053,
+                "mean": 0.020709605439333246,
+                "stddev": 0.003434118384531695,
+                "q1": 0.019040540006244555,
+                "median": 0.02020864398946287,
+                "min": 0.01777640999353025,
+                "stddev_outliers": 1,
+                "rounds": 50,
+                "q3": 0.02123192700673826,
+                "iterations": 1,
+                "hd15iqr": 0.0422533189994283,
+                "ld15iqr": 0.01777640999353025,
+                "max": 0.0422533189994283,
+                "iqr_outliers": 1
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_009_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_010_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.015926076237519737,
+                "mean": 0.451585304402397,
+                "stddev": 0.011712203852799063,
+                "q1": 0.44308072175772395,
+                "median": 0.45201890500902664,
+                "min": 0.43674228798772674,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 0.4590067979952437,
+                "iterations": 1,
+                "hd15iqr": 0.46794409801077563,
+                "ld15iqr": 0.43674228798772674,
+                "max": 0.46794409801077563,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_010_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_011_bench",
+            "group": null,
+            "stats": {
+                "outliers": "64;7",
+                "iqr": 0.0006730945060553495,
+                "mean": 0.0033406182612014303,
+                "stddev": 0.0005467344179910757,
+                "q1": 0.0029297514956851956,
+                "median": 0.003193401003954932,
+                "min": 0.00268330100516323,
+                "stddev_outliers": 64,
+                "rounds": 303,
+                "q3": 0.003602846001740545,
+                "iterations": 1,
+                "hd15iqr": 0.00481574100558646,
+                "ld15iqr": 0.00268330100516323,
+                "max": 0.00693180899543222,
+                "iqr_outliers": 7
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_011_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_012_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.01295460600158549,
+                "mean": 0.449217902001692,
+                "stddev": 0.009098425424906817,
+                "q1": 0.4435391922488634,
+                "median": 0.44899302000703756,
+                "min": 0.43600095200235955,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 0.4564937982504489,
+                "iterations": 1,
+                "hd15iqr": 0.4595778020011494,
+                "ld15iqr": 0.43600095200235955,
+                "max": 0.4595778020011494,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_012_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_013_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;13",
+                "iqr": 0.0005571562396653462,
+                "mean": 0.0032934943244176274,
+                "stddev": 0.0017499302092835295,
+                "q1": 0.0028332477559160907,
+                "median": 0.003076525012147613,
+                "min": 0.0025014310085680336,
+                "stddev_outliers": 2,
+                "rounds": 201,
+                "q3": 0.003390403995581437,
+                "iterations": 1,
+                "hd15iqr": 0.004300279004382901,
+                "ld15iqr": 0.0025014310085680336,
+                "max": 0.026912524990621023,
+                "iqr_outliers": 13
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_013_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_014_method_a_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.026985732991306577,
+                "mean": 3.2790347219997784,
+                "stddev": 0.020090577327542634,
+                "q1": 3.2636340957506036,
+                "median": 3.2789848320098827,
+                "min": 3.2565662749984767,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 3.29061982874191,
+                "iterations": 1,
+                "hd15iqr": 3.30920904300001,
+                "ld15iqr": 3.2565662749984767,
+                "max": 3.30920904300001,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_014_method_a_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_014_method_b_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;1",
+                "iqr": 0.15868478875927394,
+                "mean": 7.244535972602899,
+                "stddev": 0.18525328861411253,
+                "q1": 7.138015092248679,
+                "median": 7.171044090006035,
+                "min": 7.135912167999777,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 7.296699881007953,
+                "iterations": 1,
+                "hd15iqr": 7.572111544999643,
+                "ld15iqr": 7.135912167999777,
+                "max": 7.572111544999643,
+                "iqr_outliers": 1
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_014_method_b_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_015_bench",
+            "group": null,
+            "stats": {
+                "outliers": "14;143",
+                "iqr": 7.876849122112617e-05,
+                "mean": 0.00034595862309841954,
+                "stddev": 0.0015321408017258506,
+                "q1": 0.00019071950373472646,
+                "median": 0.0002061790000880137,
+                "min": 0.0001817419979488477,
+                "stddev_outliers": 14,
+                "rounds": 1104,
+                "q3": 0.00026948799495585263,
+                "iterations": 1,
+                "hd15iqr": 0.0003913510008715093,
+                "ld15iqr": 0.0001817419979488477,
+                "max": 0.04938381900137756,
+                "iqr_outliers": 143
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_015_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_016_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;2",
+                "iqr": 0.01388618400960695,
+                "mean": 0.06259947389917216,
+                "stddev": 0.038338573508254016,
+                "q1": 0.04324047100089956,
+                "median": 0.04821724249632098,
+                "min": 0.0411364629981108,
+                "stddev_outliers": 1,
+                "rounds": 10,
+                "q3": 0.05712665501050651,
+                "iterations": 1,
+                "hd15iqr": 0.08638458800851367,
+                "ld15iqr": 0.0411364629981108,
+                "max": 0.1649820250022458,
+                "iqr_outliers": 2
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_016_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_017_bench",
+            "group": null,
+            "stats": {
+                "outliers": "3;18",
+                "iqr": 0.0003862879893858917,
+                "mean": 0.0022266642459678873,
+                "stddev": 0.0017261417276135357,
+                "q1": 0.0018929930047306698,
+                "median": 0.002028654998866841,
+                "min": 0.0017661960009718314,
+                "stddev_outliers": 3,
+                "rounds": 459,
+                "q3": 0.0022792809941165615,
+                "iterations": 1,
+                "hd15iqr": 0.0028874819981865585,
+                "ld15iqr": 0.0017661960009718314,
+                "max": 0.036632556992117316,
+                "iqr_outliers": 18
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_017_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_018_bench",
+            "group": null,
+            "stats": {
+                "outliers": "107;130",
+                "iqr": 8.495825750287622e-05,
+                "mean": 0.00038791744091966357,
+                "stddev": 0.00018104139641464143,
+                "q1": 0.00032127349550137296,
+                "median": 0.0003563189966371283,
+                "min": 0.0002981589932460338,
+                "stddev_outliers": 107,
+                "rounds": 2017,
+                "q3": 0.0004062317530042492,
+                "iterations": 1,
+                "hd15iqr": 0.0005357679910957813,
+                "ld15iqr": 0.0002981589932460338,
+                "max": 0.007074638997437432,
+                "iqr_outliers": 130
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_018_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_019_a_bench",
+            "group": null,
+            "stats": {
+                "outliers": "101;77",
+                "iqr": 0.0001075372492778115,
+                "mean": 0.0005186942343808417,
+                "stddev": 0.00015966781077520736,
+                "q1": 0.00044066799819120206,
+                "median": 0.00048410599993076175,
+                "min": 0.0004030030104331672,
+                "stddev_outliers": 101,
+                "rounds": 1425,
+                "q3": 0.0005482052474690136,
+                "iterations": 1,
+                "hd15iqr": 0.000712652996298857,
+                "ld15iqr": 0.0004030030104331672,
+                "max": 0.004750295003759675,
+                "iqr_outliers": 77
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_019_a_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_019_b_bench",
+            "group": null,
+            "stats": {
+                "outliers": "245;257",
+                "iqr": 5.9168254665564746e-05,
+                "mean": 0.0002829402543873181,
+                "stddev": 0.00010558444172329191,
+                "q1": 0.000236788244365016,
+                "median": 0.0002652949915500358,
+                "min": 0.00022358899877872318,
+                "stddev_outliers": 245,
+                "rounds": 3663,
+                "q3": 0.00029595649903058074,
+                "iterations": 1,
+                "hd15iqr": 0.00038471599691547453,
+                "ld15iqr": 0.00022358899877872318,
+                "max": 0.004771713996888138,
+                "iqr_outliers": 257
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_019_b_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_020_bench",
+            "group": null,
+            "stats": {
+                "outliers": "22;22",
+                "iqr": 0.0003582632343750447,
+                "mean": 0.0020612637889831794,
+                "stddev": 0.0006527340035066074,
+                "q1": 0.0017974275033338927,
+                "median": 0.00193475499690976,
+                "min": 0.0016500390047440305,
+                "stddev_outliers": 22,
+                "rounds": 483,
+                "q3": 0.0021556907377089374,
+                "iterations": 1,
+                "hd15iqr": 0.002723289988352917,
+                "ld15iqr": 0.0016500390047440305,
+                "max": 0.01335005099826958,
+                "iqr_outliers": 22
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_020_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_021_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.01416736601095181,
+                "mean": 0.18243056099890964,
+                "stddev": 0.009431379920856157,
+                "q1": 0.1737767559970962,
+                "median": 0.18391793399496237,
+                "min": 0.16962441700161435,
+                "stddev_outliers": 2,
+                "rounds": 6,
+                "q3": 0.187944122008048,
+                "iterations": 1,
+                "hd15iqr": 0.19540220299677458,
+                "ld15iqr": 0.16962441700161435,
+                "max": 0.19540220299677458,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_021_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_022_bench",
+            "group": null,
+            "stats": {
+                "outliers": "3;3",
+                "iqr": 0.0011663860059343278,
+                "mean": 0.010988300281893223,
+                "stddev": 0.0018335494366842832,
+                "q1": 0.010114026998053305,
+                "median": 0.010633999998390209,
+                "min": 0.009304792009061202,
+                "stddev_outliers": 3,
+                "rounds": 78,
+                "q3": 0.011280413003987633,
+                "iterations": 1,
+                "hd15iqr": 0.014566034995368682,
+                "ld15iqr": 0.009304792009061202,
+                "max": 0.023639309001737274,
+                "iqr_outliers": 3
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_022_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_023_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.1419851119935629,
+                "mean": 3.136652261597919,
+                "stddev": 0.09946205426258388,
+                "q1": 3.076538644501852,
+                "median": 3.1071804340026574,
+                "min": 3.008741294994252,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 3.218523756495415,
+                "iterations": 1,
+                "hd15iqr": 3.2652552139916224,
+                "ld15iqr": 3.008741294994252,
+                "max": 3.2652552139916224,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_023_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_024_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1762;3716",
+                "iqr": 1.4799879863858223e-06,
+                "mean": 2.3508344265793898e-05,
+                "stddev": 1.040648414509149e-05,
+                "q1": 2.002601104322821e-05,
+                "median": 2.1013998775742948e-05,
+                "min": 1.8845006707124412e-05,
+                "stddev_outliers": 1762,
+                "rounds": 24308,
+                "q3": 2.150599902961403e-05,
+                "iterations": 1,
+                "hd15iqr": 2.3738000891171396e-05,
+                "ld15iqr": 1.8845006707124412e-05,
+                "max": 0.00047545800043735653,
+                "iqr_outliers": 3716
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_024_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_025_bench",
+            "group": null,
+            "stats": {
+                "outliers": "38;8",
+                "iqr": 0.0003404039889574051,
+                "mean": 0.0038797085105900632,
+                "stddev": 0.0003114492889429201,
+                "q1": 0.0036690590059151873,
+                "median": 0.0038001170032657683,
+                "min": 0.003483099993900396,
+                "stddev_outliers": 38,
+                "rounds": 178,
+                "q3": 0.004009462994872592,
+                "iterations": 1,
+                "hd15iqr": 0.004523816009168513,
+                "ld15iqr": 0.003483099993900396,
+                "max": 0.0053617820085491985,
+                "iqr_outliers": 8
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_025_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_026_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;2",
+                "iqr": 0.007507190995966084,
+                "mean": 0.04913438831863459,
+                "stddev": 0.01090287047231586,
+                "q1": 0.04383010099991225,
+                "median": 0.04455575150495861,
+                "min": 0.042820125992875546,
+                "stddev_outliers": 2,
+                "rounds": 22,
+                "q3": 0.05133729199587833,
+                "iterations": 1,
+                "hd15iqr": 0.07219649900798686,
+                "ld15iqr": 0.042820125992875546,
+                "max": 0.08824518699839246,
+                "iqr_outliers": 2
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_026_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_027_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.012666622249525972,
+                "mean": 0.2097050296026282,
+                "stddev": 0.00882645304487246,
+                "q1": 0.2024933177526691,
+                "median": 0.21061089300201274,
+                "min": 0.1993637289997423,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 0.21515994000219507,
+                "iterations": 1,
+                "hd15iqr": 0.22220113800722174,
+                "ld15iqr": 0.1993637289997423,
+                "max": 0.22220113800722174,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_027_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_028_bench",
+            "group": null,
+            "stats": {
+                "outliers": "58;69",
+                "iqr": 9.43357590585947e-05,
+                "mean": 0.0005965694454954698,
+                "stddev": 0.00018628126404383408,
+                "q1": 0.0005249199930403847,
+                "median": 0.0005560900026466697,
+                "min": 0.000489636993734166,
+                "stddev_outliers": 58,
+                "rounds": 1243,
+                "q3": 0.0006192557520989794,
+                "iterations": 1,
+                "hd15iqr": 0.0007627079903613776,
+                "ld15iqr": 0.000489636993734166,
+                "max": 0.005769092997070402,
+                "iqr_outliers": 69
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_028_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_029_bench",
+            "group": null,
+            "stats": {
+                "outliers": "13;14",
+                "iqr": 0.00047516899940092117,
+                "mean": 0.002571790233876762,
+                "stddev": 0.0010093243103632907,
+                "q1": 0.002227724005933851,
+                "median": 0.0024238775004050694,
+                "min": 0.001983159003430046,
+                "stddev_outliers": 13,
+                "rounds": 402,
+                "q3": 0.002702893005334772,
+                "iterations": 1,
+                "hd15iqr": 0.0035037409979850054,
+                "ld15iqr": 0.001983159003430046,
+                "max": 0.02065530100662727,
+                "iqr_outliers": 14
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_029_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_030_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.09008566048214561,
+                "mean": 4.758674147198326,
+                "stddev": 0.07007764351728259,
+                "q1": 4.715813831258856,
+                "median": 4.742669633997139,
+                "min": 4.672465764000663,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 4.805899491741002,
+                "iterations": 1,
+                "hd15iqr": 4.860159242991358,
+                "ld15iqr": 4.672465764000663,
+                "max": 4.860159242991358,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_030_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_031_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;0",
+                "iqr": 0.12235820599744329,
+                "mean": 2.3522805544023866,
+                "stddev": 0.07240887489687492,
+                "q1": 2.2845697775046574,
+                "median": 2.3921314399922267,
+                "min": 2.255579504009802,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 2.4069279835021007,
+                "iterations": 1,
+                "hd15iqr": 2.4153319720062427,
+                "ld15iqr": 2.255579504009802,
+                "max": 2.4153319720062427,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_031_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_032_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;1",
+                "iqr": 0.00731443275071797,
+                "mean": 0.3494984497956466,
+                "stddev": 0.008137061094389024,
+                "q1": 0.34668762924411567,
+                "median": 0.3529896279942477,
+                "min": 0.3352518159954343,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 0.35400206199483364,
+                "iterations": 1,
+                "hd15iqr": 0.35512273300264496,
+                "ld15iqr": 0.3504995669936761,
+                "max": 0.35512273300264496,
+                "iqr_outliers": 1
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_032_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_033_bench",
+            "group": null,
+            "stats": {
+                "outliers": "4;6",
+                "iqr": 0.002187958001741208,
+                "mean": 0.022386412627383834,
+                "stddev": 0.004262922290966848,
+                "q1": 0.020275982496968936,
+                "median": 0.021000719498260878,
+                "min": 0.019392896007047966,
+                "stddev_outliers": 4,
+                "rounds": 48,
+                "q3": 0.022463940498710144,
+                "iterations": 1,
+                "hd15iqr": 0.026149520999751985,
+                "ld15iqr": 0.019392896007047966,
+                "max": 0.041961185008403845,
+                "iqr_outliers": 6
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_033_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_034_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.27079220773885027,
+                "mean": 9.21513489659992,
+                "stddev": 0.14071745335241329,
+                "q1": 9.085661244509538,
+                "median": 9.199380231992109,
+                "min": 9.065677727005095,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 9.356453452248388,
+                "iterations": 1,
+                "hd15iqr": 9.364534255990293,
+                "ld15iqr": 9.065677727005095,
+                "max": 9.364534255990293,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_034_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_035_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;0",
+                "iqr": 0.04774864625869668,
+                "mean": 0.7601667120005005,
+                "stddev": 0.046240969409119606,
+                "q1": 0.7347945272449579,
+                "median": 0.7440979370003333,
+                "min": 0.714052288007224,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 0.7825431735036545,
+                "iterations": 1,
+                "hd15iqr": 0.8363757449988043,
+                "ld15iqr": 0.714052288007224,
+                "max": 0.8363757449988043,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_035_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_036_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;0",
+                "iqr": 0.009304301747761201,
+                "mean": 0.7017851852026069,
+                "stddev": 0.009833007525062849,
+                "q1": 0.6980544755060691,
+                "median": 0.7068412210064707,
+                "min": 0.6845886319933925,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 0.7073587772538303,
+                "iterations": 1,
+                "hd15iqr": 0.7077119199966546,
+                "ld15iqr": 0.6845886319933925,
+                "max": 0.7077119199966546,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_036_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_037_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.018592719494336052,
+                "mean": 0.3752491333987564,
+                "stddev": 0.013097139999424105,
+                "q1": 0.3665874610051105,
+                "median": 0.37063283899624366,
+                "min": 0.3606702459946973,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 0.3851801804994466,
+                "iterations": 1,
+                "hd15iqr": 0.39421371299249586,
+                "ld15iqr": 0.3606702459946973,
+                "max": 0.39421371299249586,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_037_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_038_bench",
+            "group": null,
+            "stats": {
+                "outliers": "110;61",
+                "iqr": 0.00015526874994975515,
+                "mean": 0.0007411498532877654,
+                "stddev": 0.00016148895967826095,
+                "q1": 0.0006408782464859542,
+                "median": 0.0006996320007601753,
+                "min": 0.0005871049943380058,
+                "stddev_outliers": 110,
+                "rounds": 1447,
+                "q3": 0.0007961469964357093,
+                "iterations": 1,
+                "hd15iqr": 0.0010290580103173852,
+                "ld15iqr": 0.0005871049943380058,
+                "max": 0.002753796012257226,
+                "iqr_outliers": 61
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_038_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_039_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.006682772997010034,
+                "mean": 0.16087741813888506,
+                "stddev": 0.00469417824774793,
+                "q1": 0.15683821874699788,
+                "median": 0.16226928299875,
+                "min": 0.15475551199051552,
+                "stddev_outliers": 2,
+                "rounds": 7,
+                "q3": 0.16352099174400792,
+                "iterations": 1,
+                "hd15iqr": 0.16819473399664275,
+                "ld15iqr": 0.15475551199051552,
+                "max": 0.16819473399664275,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_039_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_040_bench",
+            "group": null,
+            "stats": {
+                "outliers": "114;1100",
+                "iqr": 7.995004125405103e-06,
+                "mean": 5.801951144973024e-05,
+                "stddev": 8.359272395135027e-05,
+                "q1": 4.6671004383824766e-05,
+                "median": 4.876249295193702e-05,
+                "min": 4.382200131658465e-05,
+                "stddev_outliers": 114,
+                "rounds": 7952,
+                "q3": 5.466600850922987e-05,
+                "iterations": 1,
+                "hd15iqr": 6.669700087513775e-05,
+                "ld15iqr": 4.382200131658465e-05,
+                "max": 0.007068810999044217,
+                "iqr_outliers": 1100
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_040_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_040_brute_force_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;0",
+                "iqr": 0.011308085999189643,
+                "mean": 0.41763303079351316,
+                "stddev": 0.009787489665243005,
+                "q1": 0.4104967564926483,
+                "median": 0.4153530100011267,
+                "min": 0.41039454498968553,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 0.4218048424918379,
+                "iterations": 1,
+                "hd15iqr": 0.43422047299100086,
+                "ld15iqr": 0.41039454498968553,
+                "max": 0.43422047299100086,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_040_brute_force_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_041_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;0",
+                "iqr": 0.09118656099963118,
+                "mean": 1.9183620408002753,
+                "stddev": 0.05937368283443971,
+                "q1": 1.8728634450017125,
+                "median": 1.891783340004622,
+                "min": 1.8684324029891286,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 1.9640500060013437,
+                "iterations": 1,
+                "hd15iqr": 2.0077809909998905,
+                "ld15iqr": 1.8684324029891286,
+                "max": 2.0077809909998905,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_041_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_042_bench",
+            "group": null,
+            "stats": {
+                "outliers": "31;8",
+                "iqr": 0.0005636780042550527,
+                "mean": 0.0033549793751621055,
+                "stddev": 0.0006166301123887695,
+                "q1": 0.002996378498210106,
+                "median": 0.003250868001487106,
+                "min": 0.002653194998856634,
+                "stddev_outliers": 31,
+                "rounds": 264,
+                "q3": 0.0035600565024651587,
+                "iterations": 1,
+                "hd15iqr": 0.004441318000317551,
+                "ld15iqr": 0.002653194998856634,
+                "max": 0.009766105999005958,
+                "iqr_outliers": 8
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_042_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_043_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;2",
+                "iqr": 0.001324634999036789,
+                "mean": 0.012892704279404758,
+                "stddev": 0.0031026918841166244,
+                "q1": 0.0118058030057,
+                "median": 0.012304920004680753,
+                "min": 0.010952262993669137,
+                "stddev_outliers": 2,
+                "rounds": 82,
+                "q3": 0.013130438004736789,
+                "iterations": 1,
+                "hd15iqr": 0.025742225989233702,
+                "ld15iqr": 0.010952262993669137,
+                "max": 0.03617976600071415,
+                "iqr_outliers": 2
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_043_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_044_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.033209710261871805,
+                "mean": 4.246066444402095,
+                "stddev": 0.03240604178145114,
+                "q1": 4.229639486246015,
+                "median": 4.247138755003107,
+                "min": 4.199648993992014,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 4.2628491965078865,
+                "iterations": 1,
+                "hd15iqr": 4.2901638410112355,
+                "ld15iqr": 4.199648993992014,
+                "max": 4.2901638410112355,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_044_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_045_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;2",
+                "iqr": 0.0029432315059239045,
+                "mean": 0.05366838435002137,
+                "stddev": 0.00658427891533099,
+                "q1": 0.05071716349630151,
+                "median": 0.05204238899750635,
+                "min": 0.048870693004573695,
+                "stddev_outliers": 1,
+                "rounds": 20,
+                "q3": 0.053660395002225414,
+                "iterations": 1,
+                "hd15iqr": 0.058544409010210074,
+                "ld15iqr": 0.048870693004573695,
+                "max": 0.07963886400102638,
+                "iqr_outliers": 2
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_045_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_046_bench",
+            "group": null,
+            "stats": {
+                "outliers": "12;1",
+                "iqr": 0.0022677550005028024,
+                "mean": 0.023450782739256163,
+                "stddev": 0.001601172246193102,
+                "q1": 0.02227121399482712,
+                "median": 0.023124575505789835,
+                "min": 0.020430435994057916,
+                "stddev_outliers": 12,
+                "rounds": 46,
+                "q3": 0.024538968995329924,
+                "iterations": 1,
+                "hd15iqr": 0.028113453998230398,
+                "ld15iqr": 0.020430435994057916,
+                "max": 0.028113453998230398,
+                "iqr_outliers": 1
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_046_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_047_bench",
+            "group": null,
+            "stats": {
+                "outliers": "3;0",
+                "iqr": 0.03523828575271182,
+                "mean": 1.2394097971991869,
+                "stddev": 0.018355085512104623,
+                "q1": 1.2233003632463806,
+                "median": 1.2351812650013017,
+                "min": 1.2203535809967434,
+                "stddev_outliers": 3,
+                "rounds": 5,
+                "q3": 1.2585386489990924,
+                "iterations": 1,
+                "hd15iqr": 1.2587699760042597,
+                "ld15iqr": 1.2203535809967434,
+                "max": 1.2587699760042597,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_047_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_048_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.0383589212433435,
+                "mean": 1.1237160114018478,
+                "stddev": 0.024734700726015614,
+                "q1": 1.101176091506204,
+                "median": 1.132344027995714,
+                "min": 1.093507262005005,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 1.1395350127495476,
+                "iterations": 1,
+                "hd15iqr": 1.15442457300378,
+                "ld15iqr": 1.093507262005005,
+                "max": 1.15442457300378,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_048_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_049_bench",
+            "group": null,
+            "stats": {
+                "outliers": "66;8",
+                "iqr": 0.0006855379979242571,
+                "mean": 0.003609246376995893,
+                "stddev": 0.0005582883336960061,
+                "q1": 0.0031919895045575686,
+                "median": 0.003480279505311046,
+                "min": 0.002832875994499773,
+                "stddev_outliers": 66,
+                "rounds": 260,
+                "q3": 0.0038775275024818256,
+                "iterations": 1,
+                "hd15iqr": 0.004972385999280959,
+                "ld15iqr": 0.002832875994499773,
+                "max": 0.006896124003105797,
+                "iqr_outliers": 8
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_049_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_050_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;0",
+                "iqr": 0.013439874503092142,
+                "mean": 0.23159717399685179,
+                "stddev": 0.00943762615675574,
+                "q1": 0.2237864879934932,
+                "median": 0.23091410999768414,
+                "min": 0.2224609889963176,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 0.23722636249658535,
+                "iterations": 1,
+                "hd15iqr": 0.2461209500033874,
+                "ld15iqr": 0.2224609889963176,
+                "max": 0.2461209500033874,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_050_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_051_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;1",
+                "iqr": 0.01041856950178044,
+                "mean": 0.3492819069972029,
+                "stddev": 0.011985437774397265,
+                "q1": 0.34299688924875227,
+                "median": 0.3452178570005344,
+                "min": 0.3390297829901101,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 0.3534154587505327,
+                "iterations": 1,
+                "hd15iqr": 0.36993303798954,
+                "ld15iqr": 0.3390297829901101,
+                "max": 0.36993303798954,
+                "iqr_outliers": 1
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_051_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_052_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.012943288755195681,
+                "mean": 0.7787539612036198,
+                "stddev": 0.01201582626073084,
+                "q1": 0.7733485840035428,
+                "median": 0.7778817930084188,
+                "min": 0.7607597409951268,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 0.7862918727587385,
+                "iterations": 1,
+                "hd15iqr": 0.7937913649948314,
+                "ld15iqr": 0.7607597409951268,
+                "max": 0.7937913649948314,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_052_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_053_bench",
+            "group": null,
+            "stats": {
+                "outliers": "15;615",
+                "iqr": 2.4092507374007255e-05,
+                "mean": 0.00013313124751357402,
+                "stddev": 0.0002897259714184084,
+                "q1": 0.00010921599459834397,
+                "median": 0.00011992799409199506,
+                "min": 0.00010021201160270721,
+                "stddev_outliers": 15,
+                "rounds": 8257,
+                "q3": 0.00013330850197235122,
+                "iterations": 1,
+                "hd15iqr": 0.00016947099356912076,
+                "ld15iqr": 0.00010021201160270721,
+                "max": 0.023608023999258876,
+                "iqr_outliers": 615
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_053_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_054_bench",
+            "group": null,
+            "stats": {
+                "outliers": "5;0",
+                "iqr": 0.004129383250983665,
+                "mean": 0.07001300106542961,
+                "stddev": 0.003242513752216827,
+                "q1": 0.06757269549416378,
+                "median": 0.07030360700446181,
+                "min": 0.06399284099461511,
+                "stddev_outliers": 5,
+                "rounds": 15,
+                "q3": 0.07170207874514745,
+                "iterations": 1,
+                "hd15iqr": 0.07561636000173166,
+                "ld15iqr": 0.06399284099461511,
+                "max": 0.07561636000173166,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_054_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_055_bench",
+            "group": null,
+            "stats": {
+                "outliers": "6;0",
+                "iqr": 0.006036615988705307,
+                "mean": 0.07086359578741915,
+                "stddev": 0.0034910321652483417,
+                "q1": 0.06847294900217094,
+                "median": 0.07014185300795361,
+                "min": 0.06575752700155135,
+                "stddev_outliers": 6,
+                "rounds": 14,
+                "q3": 0.07450956499087624,
+                "iterations": 1,
+                "hd15iqr": 0.07697436500166077,
+                "ld15iqr": 0.06575752700155135,
+                "max": 0.07697436500166077,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_055_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_056_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.010655577494617319,
+                "mean": 0.25348394379834643,
+                "stddev": 0.007589853779908833,
+                "q1": 0.2471787767499336,
+                "median": 0.2537789009948028,
+                "min": 0.2455439860059414,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 0.2578343542445509,
+                "iterations": 1,
+                "hd15iqr": 0.26489097900048364,
+                "ld15iqr": 0.2455439860059414,
+                "max": 0.26489097900048364,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_056_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_057_bench",
+            "group": null,
+            "stats": {
+                "outliers": "6;11",
+                "iqr": 0.0005053595086792484,
+                "mean": 0.0029752136267364093,
+                "stddev": 0.0010972108719757253,
+                "q1": 0.002642045496031642,
+                "median": 0.0028270574985072017,
+                "min": 0.0023592880024807528,
+                "stddev_outliers": 6,
+                "rounds": 364,
+                "q3": 0.0031474050047108904,
+                "iterations": 1,
+                "hd15iqr": 0.003946675002225675,
+                "ld15iqr": 0.0023592880024807528,
+                "max": 0.0225517810031306,
+                "iqr_outliers": 11
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_057_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_058_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.07043076999252662,
+                "mean": 4.73614878480439,
+                "stddev": 0.05774853770638932,
+                "q1": 4.70123274875732,
+                "median": 4.745663234003587,
+                "min": 4.650183914010995,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 4.771663518749847,
+                "iterations": 1,
+                "hd15iqr": 4.806644586002221,
+                "ld15iqr": 4.650183914010995,
+                "max": 4.806644586002221,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_058_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_059_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;0",
+                "iqr": 0.05058510475282674,
+                "mean": 1.7297147162025794,
+                "stddev": 0.032057964555890904,
+                "q1": 1.7049893227522261,
+                "median": 1.7315258699964033,
+                "min": 1.686784041012288,
+                "stddev_outliers": 2,
+                "rounds": 5,
+                "q3": 1.7555744275050529,
+                "iterations": 1,
+                "hd15iqr": 1.7676600249978947,
+                "ld15iqr": 1.686784041012288,
+                "max": 1.7676600249978947,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_059_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_060_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;1",
+                "iqr": 14.795325901752221,
+                "mean": 60.19760554640088,
+                "stddev": 16.138080557074225,
+                "q1": 51.301362380247156,
+                "median": 51.79089117300464,
+                "min": 50.512503195001045,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 66.09668828199938,
+                "iterations": 1,
+                "hd15iqr": 88.48710031900555,
+                "ld15iqr": 50.512503195001045,
+                "max": 88.48710031900555,
+                "iqr_outliers": 1
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_060_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_061_bench",
+            "group": null,
+            "stats": {
+                "outliers": "3;5",
+                "iqr": 0.00038439349737018347,
+                "mean": 0.01552413283014793,
+                "stddev": 0.004103717584605366,
+                "q1": 0.01432043324894039,
+                "median": 0.014428010996198282,
+                "min": 0.014238449002732523,
+                "stddev_outliers": 3,
+                "rounds": 53,
+                "q3": 0.014704826746310573,
+                "iterations": 1,
+                "hd15iqr": 0.017288632996496744,
+                "ld15iqr": 0.014238449002732523,
+                "max": 0.036315931007266045,
+                "iqr_outliers": 5
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_061_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_062_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;1",
+                "iqr": 0.003013970999745652,
+                "mean": 0.09151244087297528,
+                "stddev": 0.027354921168865193,
+                "q1": 0.08070600799692329,
+                "median": 0.08213418149534846,
+                "min": 0.07987001200672239,
+                "stddev_outliers": 1,
+                "rounds": 8,
+                "q3": 0.08371997899666894,
+                "iterations": 1,
+                "hd15iqr": 0.15910917799919844,
+                "ld15iqr": 0.07987001200672239,
+                "max": 0.15910917799919844,
+                "iqr_outliers": 1
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_062_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_063_bench",
+            "group": null,
+            "stats": {
+                "outliers": "18;39",
+                "iqr": 5.018504452891648e-06,
+                "mean": 0.0006727330613142366,
+                "stddev": 4.416653013045585e-05,
+                "q1": 0.0006588019969058223,
+                "median": 0.000659566001559142,
+                "min": 0.0006570169935002923,
+                "stddev_outliers": 18,
+                "rounds": 276,
+                "q3": 0.000663820501358714,
+                "iterations": 1,
+                "hd15iqr": 0.0006717270007357001,
+                "ld15iqr": 0.0006570169935002923,
+                "max": 0.0010019640030805022,
+                "iqr_outliers": 39
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_063_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_064_bench",
+            "group": null,
+            "stats": {
+                "outliers": "1;0",
+                "iqr": 0.18758503600474796,
+                "mean": 3.9405291026021585,
+                "stddev": 0.11996238140756782,
+                "q1": 3.852179586501734,
+                "median": 3.870943788992008,
+                "min": 3.8469314120011404,
+                "stddev_outliers": 1,
+                "rounds": 5,
+                "q3": 4.039764622506482,
+                "iterations": 1,
+                "hd15iqr": 4.116732756010606,
+                "ld15iqr": 3.8469314120011404,
+                "max": 4.116732756010606,
+                "iqr_outliers": 0
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_064_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_065_bench",
+            "group": null,
+            "stats": {
+                "outliers": "5;16",
+                "iqr": 9.430199861526489e-05,
+                "mean": 0.004072769594368647,
+                "stddev": 0.000288668615689129,
+                "q1": 0.003977009997470304,
+                "median": 0.004000508997705765,
+                "min": 0.0039233209972735494,
+                "stddev_outliers": 5,
+                "rounds": 138,
+                "q3": 0.004071311996085569,
+                "iterations": 1,
+                "hd15iqr": 0.004231297003570944,
+                "ld15iqr": 0.0039233209972735494,
+                "max": 0.006766386999515817,
+                "iqr_outliers": 16
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_065_bench"
+        },
+        {
+            "options": {
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "min_time": 5e-06,
+                "warmup": false,
+                "max_time": 1.0,
+                "disable_gc": false
+            },
+            "name": "test_problem_067_bench",
+            "group": null,
+            "stats": {
+                "outliers": "2;4",
+                "iqr": 0.001903451506223064,
+                "mean": 0.03707679839343265,
+                "stddev": 0.007202282393594445,
+                "q1": 0.03400706299726153,
+                "median": 0.03472583350230707,
+                "min": 0.03367250099836383,
+                "stddev_outliers": 2,
+                "rounds": 28,
+                "q3": 0.03591051450348459,
+                "iterations": 1,
+                "hd15iqr": 0.04246644499653485,
+                "ld15iqr": 0.03367250099836383,
+                "max": 0.06724469500477426,
+                "iqr_outliers": 4
+            },
+            "fullname": "project_euler/test/test_problems.py::test_problem_067_bench"
+        }
+    ],
+    "machine_info": {
+        "release": "15.6.0",
+        "processor": "i386",
+        "system": "Darwin",
+        "python_compiler": "GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)",
+        "machine": "x86_64",
+        "node": "cmartin2-mbp",
+        "python_version": "3.5.2",
+        "python_implementation": "CPython"
+    },
+    "datetime": "2017-01-10T10:39:34.239648"
+}

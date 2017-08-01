@@ -74,3 +74,7 @@ from . import problem_073
 from . import problem_074
 from . import problem_075
 from . import problem_076
+from . import problem_077
+from . import problem_078
+from . import problem_079
+from . import problem_080
