@@ -78,3 +78,6 @@ from . import problem_077
 from . import problem_078
 from . import problem_079
 from . import problem_080
+from . import problem_081
+from . import problem_082
+from . import problem_083
